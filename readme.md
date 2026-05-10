@@ -2,7 +2,7 @@
 
 ### Anonymous Code Link
 
-The anonymous code repository is available at https://anonymous.4open.science/r/StaPrune_-7E11/ ).
+The anonymous code repository is available at https://anonymous.4open.science/r/StaPrune_-7E11/.
 
 ### Image QA Benchmarks
 
