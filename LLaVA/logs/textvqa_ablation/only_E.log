@@ -1,0 +1,29 @@
+==== START only_E (mode=E) 2026-04-02 00:49:35 ====
+LLaVA root: /mnt/sda/*/workspace/intern/*/HiPrune_main_backup_260328_ABCDER/LLaVA
+Model path: /mnt/sda/*/workspace/intern/*/models/llava-v1.5-7b
+TextVQA data root: /mnt/sda/*/workspace/intern/*/FasterVLM_v99_test2/LLaVA/playground/data/eval/textvqa
+Answers file: /mnt/sda/*/workspace/intern/*/HiPrune_main_backup_260328_ABCDER/LLaVA/playground/data/eval/textvqa/answers/llava-v1.5-7b_only_E.jsonl
+GPU list: 0,1,2,3
+Chunks: 4
+Ablation mode: E
+
+[Auto Router] Retention: 33.3% (192/576 tokens)
+  Strategy: Delegate to V139-G
+Average number of visual tokens: 191.0
+
+[Auto Router] Retention: 33.3% (192/576 tokens)
+  Strategy: Delegate to V139-G
+Average number of visual tokens: 191.0
+
+[Auto Router] Retention: 33.3% (192/576 tokens)
+  Strategy: Delegate to V139-G
+Average number of visual tokens: 191.0
+
+[Auto Router] Retention: 33.3% (192/576 tokens)
+  Strategy: Delegate to V139-G
+Average number of visual tokens: 191.0
+llava-v1.5-7b_only_E
+Samples: 5000
+Accuracy: 49.45%
+
+==== END only_E (accuracy=49.45) 2026-04-02 00:52:52 ====

@@ -1,0 +1,7 @@
+label	ablation_mode	accuracy	answers_file	log_file
+only_AIP	AIP	57.62	/mnt/sda/*/workspace/intern/*/StaPrune_main_backup_260328_ABCDER/LLaVA/playground/data/eval/textvqa/answers/llava-v1.5-7b_only_AIP.jsonl	logs/textvqa_ablation/only_AIP.log
+only_SECB	SECB	49.45	/mnt/sda/*/workspace/intern/*/StaPrune_main_backup_260328_ABCDER/LLaVA/playground/data/eval/textvqa/answers/llava-v1.5-7b_only_SECB.jsonl	logs/textvqa_ablation/only_SECB.log
+only_SCR	SCR	53.39	/mnt/sda/*/workspace/intern/*/StaPrune_main_backup_260328_ABCDER/LLaVA/playground/data/eval/textvqa/answers/llava-v1.5-7b_only_SCR.jsonl	logs/textvqa_ablation/only_SCR.log
+wo_AIP_SECBplusSCR	SECB+SCR	49.45	/mnt/sda/*/workspace/intern/*/StaPrune_main_backup_260328_ABCDER/LLaVA/playground/data/eval/textvqa/answers/llava-v1.5-7b_wo_AIP_SECBplusSCR.jsonl	logs/textvqa_ablation/wo_AIP_SECBplusSCR.log
+wo_SECB_AIPplusSCR	AIP+SCR	57.51	/mnt/sda/*/workspace/intern/*/StaPrune_main_backup_260328_ABCDER/LLaVA/playground/data/eval/textvqa/answers/llava-v1.5-7b_wo_SECB_AIPplusSCR.jsonl	logs/textvqa_ablation/wo_SECB_AIPplusSCR.log
+wo_SCR_AIPplusSECB	AIP+SECB	57.48	/mnt/sda/*/workspace/intern/*/StaPrune_main_backup_260328_ABCDER/LLaVA/playground/data/eval/textvqa/answers/llava-v1.5-7b_wo_SCR_AIPplusSECB.jsonl	logs/textvqa_ablation/wo_SCR_AIPplusSECB.log
